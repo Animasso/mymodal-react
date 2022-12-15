@@ -22,6 +22,7 @@ import {useState} from 'react'
 const [modal, setModal] = useState(false);
 const toggleModal = () => {
   setModal(!modal);
+  
 }
 ```
 3.Call the modal where you want to display it:
